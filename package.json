@@ -1,25 +1,26 @@
 {
-  "name": "page-checker",
-  "version": "1.0.0",
-  "description": "A tool collecting errors and capturing screenshots from given list of pages",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js pages.txt",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makoffd/page-checker.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/makoffd/page-checker/issues"
-  },
-  "homepage": "https://github.com/makoffd/page-checker#readme",
-  "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "phantomjs-prebuilt": "^2.1.16",
-    "url": "^0.11.0"
-  }
+    "name": "page-checker",
+    "version": "1.0.0",
+    "description": "A tool collecting errors and capturing screenshots from given list of pages",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js pages.txt",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/makoffd/page-checker.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/makoffd/page-checker/issues"
+    },
+    "homepage": "https://github.com/makoffd/page-checker#readme",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "mkdirp": "^0.5.1",
+        "phantomjs-prebuilt": "^2.1.16",
+        "url": "^0.11.0"
+    }
 }
