@@ -24,6 +24,9 @@ const voyagerCookie = {
     'expires': (new Date()).getTime() + (1000 * 60 * 60) /* <-- expires in 1 hour */
 };
 
+page.settings.userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36';
+page.settings.webSecurityEnabled = false;
+
 // set cookie
 //  - x_lzd_goblin_voyager_searchpage_enabled=true
 page.addCookie(voyagerCookie);

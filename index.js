@@ -24,7 +24,7 @@ lineReader.on('line', function(line) {
     // run phantomjs
 
     let child = childProcess.execFile(
-        binPath, [path.join(__dirname, 'phantomjs-script.js'), line],
+        binPath, ['--ignore-ssl-errors=true', path.join(__dirname, 'phantomjs-script.js'), line],
         function(err, stdout, stderr) {
             // report errors
             if (err) {
